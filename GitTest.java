@@ -8,6 +8,10 @@ public class GitTest{
 		phrase = "This is my GitHub Test";
 	}
 
+	public void setPhrase(phrase){
+		this.phrase = phrase;
+	}
+
 	public String toString(){
 		return phrase;
 	}
